@@ -6,10 +6,9 @@ There is some light dependency on knowing how
 work in python in terms of argument passing and return values, but you should
 be able to figure it out as you go.
 
-[string1.py](./string1.py) -- Complete the string functions in string1.py,
-based on your knowledge of Python strings, indexing, slicing, and methods.
+[string1.py](./string1.py) -- Complete the string functions in string1.py, based on your knowledge of Python strings, indexing, slicing, and methods.  Make sure all the tests are passing, before submitting your work.
 
-[string2.py](./string2.py) -- Additional string function completions.
+[string2.py](./string2.py) -- Additional string function completions.  Again, make sure all tests are passing before submitting your work.
 
 
 ## PR (Pull Request) Workflow for this Assignment
