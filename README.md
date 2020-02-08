@@ -1,3 +1,5 @@
+<img height="120px" src="https://images-na.ssl-images-amazon.com/images/I/51ucI--TA5L._AC_SY450_.jpg" />
+
 # String1 and String2
 For this assignment, you'll be coding some string manipulation functions within the `string1.py` and `string2.py` files.
 
