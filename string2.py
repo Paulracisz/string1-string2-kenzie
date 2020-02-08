@@ -10,7 +10,7 @@ Kenzie Assignment: String2
 # http://code.google.com/edu/languages/google-python-class/
 
 # Instructions:
-# Complete each of these string exercises in the same way as the 
+# Complete each of these string exercises in the same way as the
 # previous String1 excercises.
 
 # D. verbing
@@ -20,6 +20,8 @@ Kenzie Assignment: String2
 # add 'ly' instead.
 # If the string length is less than 3, leave it unchanged.
 # Return the resulting string.
+
+
 def verbing(s):
     # your code here
     return
@@ -57,7 +59,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{} got: {} expected: {}'.format(prefix, repr(got), repr(expected)))
+    print('{} got: {}     expected: {}'.format(prefix, repr(got), repr(expected)))
 
 
 # main() calls the above functions with interesting inputs,
@@ -68,14 +70,14 @@ def main():
     test(verbing('swiming'), 'swimingly')
     test(verbing('do'), 'do')
 
-    print()
+    print('')
     print('not_bad')
     test(not_bad('This movie is not so bad'), 'This movie is good')
     test(not_bad('This dinner is not that bad!'), 'This dinner is good!')
     test(not_bad('This tea is not hot'), 'This tea is not hot')
     test(not_bad("It's bad yet not"), "It's bad yet not")
 
-    print()
+    print('')
     print('front_back')
     test(front_back('abcd', 'xy'), 'abxcdy')
     test(front_back('abcde', 'xyz'), 'abcxydez')

@@ -10,10 +10,10 @@ Kenzie assignment: String1
 # http://code.google.com/edu/languages/google-python-class/
 
 # Instructions:
-# Complete each function below by writing the code for it. main() is already 
-# set up to test all the functions with a few different inputs, printing 'OK' when 
+# Complete each function below by writing the code for it. main() is already
+# set up to test all the functions with a few different inputs, printing 'OK' when
 # each function returns the correct result.
-# The starter code for each function includes a bare 'return' which is just a 
+# The starter code for each function includes a bare 'return' which is just a
 # placeholder for your code.
 
 # A. donuts
@@ -23,6 +23,8 @@ Kenzie assignment: String1
 # instead of the actual count.
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
+
+
 def donuts(count):
     # your code here
     return
@@ -71,8 +73,8 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{} got: {} expected: {}'.format(prefix, repr(got), repr(expected)))
-    
+    print('{} got: {}    expected: {}'.format(prefix, repr(got), repr(expected)))
+
 
 # The main() func calls the above functions with interesting inputs,
 # using test() to check if each result is correct or not.
@@ -84,21 +86,21 @@ def main():
     test(donuts(10), 'Number of donuts: many')
     test(donuts(99), 'Number of donuts: many')
 
-    print()
+    print('')
     print('both_ends')
     test(both_ends('spring'), 'spng')
     test(both_ends('Hello'), 'Helo')
     test(both_ends('a'), '')
     test(both_ends('xyz'), 'xyyz')
 
-    print()
+    print('')
     print('fix_start')
     test(fix_start('babble'), 'ba**le')
     test(fix_start('aardvark'), 'a*rdv*rk')
     test(fix_start('google'), 'goo*le')
     test(fix_start('donut'), 'donut')
 
-    print()
+    print('')
     print('mix_up')
     test(mix_up('mix', 'pod'), 'pox mid')
     test(mix_up('dog', 'dinner'), 'dig donner')
