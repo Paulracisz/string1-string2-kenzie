@@ -1,4 +1,4 @@
-# String1 Assignment
+# String1 and String2
 For this assignment, you'll be coding some string manipulation functions within the `string1.py` and `string2.py` files.
 
 There is some light dependency on knowing how
