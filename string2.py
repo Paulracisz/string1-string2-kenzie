@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+Kenzie Assignment: String2
+"""
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -6,7 +9,9 @@
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
 
-# Additional basic string exercises
+# Instructions:
+# Complete each of these string exercises in the same way as the 
+# previous String1 excercises.
 
 # D. verbing
 # Given a string, if its length is at least 3,
@@ -15,10 +20,8 @@
 # add 'ly' instead.
 # If the string length is less than 3, leave it unchanged.
 # Return the resulting string.
-
-
 def verbing(s):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
@@ -31,7 +34,7 @@ def verbing(s):
 # So 'This dinner is not that bad!' yields:
 # This dinner is good!
 def not_bad(s):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
@@ -43,14 +46,13 @@ def not_bad(s):
 # Given 2 strings, a and b, return a string of the form
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
 # Provided simple test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
 def test(got, expected):
-    """Your code goes here.  Edit this docstring."""
     if got == expected:
         prefix = ' OK '
     else:
@@ -61,7 +63,6 @@ def test(got, expected):
 # main() calls the above functions with interesting inputs,
 # using the above test() to check if the result is correct or not.
 def main():
-    """Your code goes here.  Edit this docstring."""
     print('verbing')
     test(verbing('hail'), 'hailing')
     test(verbing('swiming'), 'swimingly')
@@ -81,6 +82,6 @@ def main():
     test(front_back('Kitten', 'Donut'), 'KitDontenut')
 
 
-# Standard boilerplate (python idiom) to call the main() function.
+# This is called the 'import guard' -- it calls the main function.
 if __name__ == '__main__':
     main()
