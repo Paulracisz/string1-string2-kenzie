@@ -2,6 +2,10 @@
 """
 Kenzie assignment: String2
 """
+# Your name, plus anyone who helped you with this assignment.
+# Give credit where credit is due.
+__author__ = "???"
+
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -16,10 +20,6 @@ Kenzie assignment: String2
 # instead.
 # If the string length is less than 3, leave it unchanged.
 # Return the resulting string.
-
-# Your name, plus anyone who helped you with this assignment.
-# Give credit where credit is due.
-__author__ = "???"
 
 
 def verbing(s):
