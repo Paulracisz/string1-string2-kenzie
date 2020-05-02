@@ -2,6 +2,10 @@
 """
 Kenzie assignment: String1
 """
+# Your name, plus anyone who helped you with this assignment.
+# Give credit where credit is due.
+__author__ = "???"
+
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -21,10 +25,6 @@ Kenzie assignment: String1
 # Example:
 #   donuts(5) returns 'Number of donuts: 5'
 #   donuts(23) returns 'Number of donuts: many'
-
-# Your name, plus anyone who helped you with this assignment.
-# Give credit where credit is due.
-__author__ = "???"
 
 
 def donuts(count):
