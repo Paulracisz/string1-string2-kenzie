@@ -22,7 +22,7 @@ Kenzie assignment: String1
 #   donuts(5) returns 'Number of donuts: 5'
 #   donuts(23) returns 'Number of donuts: many'
 
-# Your name, plus anyone who helped you with this assignment
+# Your name, plus anyone who helped you with this assignment.
 # Give credit where credit is due.
 __author__ = "???"
 
