@@ -17,6 +17,10 @@ Kenzie assignment: String2
 # If the string length is less than 3, leave it unchanged.
 # Return the resulting string.
 
+# Your name, plus anyone who helped you with this assignment.
+# Give credit where credit is due.
+__author__ = "???"
+
 
 def verbing(s):
     # your code here
