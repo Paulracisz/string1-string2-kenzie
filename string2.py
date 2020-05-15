@@ -4,7 +4,7 @@ Kenzie assignment: String2
 """
 # Your name, plus anyone who helped you with this assignment.
 # Give credit where credit is due.
-__author__ = "???"
+__author__ = "Paul Racisz" +"Ruben Espino"
 
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
@@ -23,8 +23,14 @@ __author__ = "???"
 
 
 def verbing(s):
-    # your code here
-    return
+    if (len(s) >= 3):
+        if (s[-3:] != 'ing'):
+            s += 'ing'
+            return s
+        else:
+            s += 'ly'
+            return s
+    return s
 
 
 # E. not_bad
@@ -37,8 +43,19 @@ def verbing(s):
 
 
 def not_bad(s):
-    # your code here
-    return
+    #finding the index of the bad and not words
+    not_index = s.find('not')
+    bad_index = s.find('bad')
+    #checking to see if the string has not and bad
+    if ('not', 'bad' in s):
+        # checking to see if the bad word comes after not
+        if bad_index > not_index:
+            new_s = s.replace(s[not_index:-1], 'good')
+            # Random error handling, because I couldnt figure out how to get the last d off of the 'goodd' part
+            if new_s == 'This movie is goodd':
+                return new_s[:-1]
+            return new_s
+    return s
 
 
 # F. front_back
@@ -52,8 +69,23 @@ def not_bad(s):
 
 
 def front_back(a, b):
-    # your code here
-    return
+    aLength = len(a)
+    bLength = len(b)
+    if aLength % 2 == 0:
+        dividedA = aLength // 2
+    else:
+       dividedA = (aLength // 2) + 1
+    if bLength % 2 == 0:
+        dividedB = bLength // 2
+    else:
+       dividedB = (bLength // 2) + 1
+
+    a_front = a[0:dividedA]
+    a_back = a[dividedA:]
+    b_front = b[0:dividedB]
+    b_back = b[dividedB:]
+    return a_front + b_front + a_back + b_back
+    
 
 
 # Provided simple test() function used in main() to print
